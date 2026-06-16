@@ -1,0 +1,104 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
+position:sticky;
+top:0;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav a{
+margin:15px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:
+linear-gradient(135deg,#2563eb,#9333ea);
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+
+button{
+background:#7ed0f4;
+border:0;
+padding:12px 25px;
+border-radius:25px;
+font-weight:bold;
+}
+
+section{
+padding:50px 70px;
+text-align:center;
+}
+
+
+.skills span{
+display:inline-block;
+background:#1e293b;
+margin:10px;
+padding:15px 25px;
+border-radius:20px;
+}
+
+
+.cards{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+
+.card{
+background:rgba(255,255,255,0.08);
+width:270px;
+padding:35px;
+border-radius:20px;
+backdrop-filter: blur(10px);
+box-shadow:0 0 20px #000;
+transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+input,textarea{
+display:block;
+margin:15px auto;
+width:300px;
+padding:15px;
+border-radius:10px;
+}
+
+
+footer{
+background:#020617;
+padding:20px;
+text-align:center;
+}
+
